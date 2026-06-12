@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#84fab0"/>
+      <stop offset="1" stop-color="#8fd3f4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#bg)"/>
+  <!-- flask -->
+  <g transform="translate(300,175)">
+    <path d="M -22 -90 L -22 -25 L -70 70 Q -78 90 -55 90 L 55 90 Q 78 90 70 70 L 22 -25 L 22 -90 Z"
+          fill="#ffffff" opacity="0.92"/>
+    <path d="M -38 38 L 38 38 L 55 73 Q 60 84 48 84 L -48 84 Q -60 84 -55 73 Z" fill="#7c6ce0" opacity="0.65"/>
+    <rect x="-30" y="-98" width="60" height="12" rx="6" fill="#ffffff" opacity="0.92"/>
+    <circle cx="0" cy="20" r="7" fill="#7c6ce0" opacity="0.5"/>
+    <circle cx="-14" cy="2" r="5" fill="#7c6ce0" opacity="0.4"/>
+    <circle cx="13" cy="-8" r="4" fill="#7c6ce0" opacity="0.35"/>
+  </g>
+  <circle cx="110" cy="80" r="6" fill="#fff" opacity="0.7"/>
+  <circle cx="480" cy="260" r="9" fill="#fff" opacity="0.6"/>
+  <circle cx="510" cy="70" r="5" fill="#fff" opacity="0.7"/>
+</svg>
