@@ -161,7 +161,35 @@ To upload new photos: open the `images/` folder on github.com →
 
 ---
 
-## 7. If something breaks 🚑
+## 7. Using your own web address 🏡 (optional)
+
+If you have your own domain (like `yourname.com`), you can use it instead
+of `yourusername.github.io`:
+
+1. On github.com, open your repository → **Settings → Pages** →
+   under **Custom domain**, type `www.yourname.com` and click **Save**.
+   (GitHub adds a small file called `CNAME` to your repository — leave it
+   there, the site needs it.)
+2. Log in to the website where the domain was bought, find the **DNS
+   settings**, and add these records (delete any old "parking page"
+   records first):
+
+   | Type  | Host | Value |
+   |-------|------|-------|
+   | CNAME | www  | `yourusername.github.io` |
+   | A     | @    | `185.199.108.153` |
+   | A     | @    | `185.199.109.153` |
+   | A     | @    | `185.199.110.153` |
+   | A     | @    | `185.199.111.153` |
+
+3. Wait a bit (usually minutes, sometimes up to a day). When the Pages
+   settings page shows a green check next to your domain, tick
+   **Enforce HTTPS**.
+4. Done — your site now lives at `https://www.yourname.com` 🎉
+
+---
+
+## 8. If something breaks 🚑
 
 If a page suddenly shows up empty or wrong, you almost certainly have a tiny
 typo in a `data/` file. The usual suspects:
