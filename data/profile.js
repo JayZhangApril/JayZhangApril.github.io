@@ -9,7 +9,7 @@
 
 const PROFILE = {
   // Your name (shows in the big heading and the top menu)
-  name: "Mia Zhang",
+  name: "Annie Zhang",
 
   // One friendly sentence about you (shows under your name on the home page)
   tagline: "High school student who loves science experiments, painting, and building things that make people smile.",
